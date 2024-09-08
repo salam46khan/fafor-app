@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+.myStroke{
+  -webkit-text-stroke: 1px black;
+}

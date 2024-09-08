@@ -1,0 +1,51 @@
+.fofomic{
+    background: url('../../../assets/pic/fafamic.png'), linear-gradient( #f792befa, #f792befa);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fafo-title{
+    font-weight: bold;
+    color: #F594C1;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px black;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+.fafo-title::after{
+    content: 'FOFOMICS';
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 0.5px black;
+    color: #00BFFF;
+    transform: translate(-7px, 7px);
+    z-index: -1;
+    text-align: center;
+    width: 100%;
+}
+.fafo-title::before{
+    content: 'FOFOMICS';
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-text-stroke: 0.4px black;
+    color: #F4EC7F;
+    transform: translate(-14px, 14px);
+    z-index: -2;
+    text-align: center;
+    width: 100%;
+}
+
+.fofo-shadow{
+    box-shadow: 5px 8px 0 #000;
+    border: 3px solid #000;
+}
+.fofo-stroke{
+    -webkit-text-stroke: 2px black;
+    text-shadow: 2px 3px 0 #000;
+}

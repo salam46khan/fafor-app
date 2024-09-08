@@ -1,0 +1,10 @@
+.logo-text{
+    font-weight: bold;
+    color: #F594C1;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-text-stroke: 0.5px black;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}

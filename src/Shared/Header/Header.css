@@ -1,0 +1,42 @@
+#nav a.active{
+    background: #04BDFE;
+    color: #000;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+#nav a{
+    height: 100%;
+    padding: 10px;
+    border-radius: 0;
+    padding: 22px;
+    height: 100%;
+}
+
+#nav ul{
+    margin: 0;
+    padding: 0;
+}
+#nav ul li a:hover{
+    background: #04BDFE
+}
+
+.mobile-Nav ul{
+    width: 100%;
+}
+.mobile-Nav ul li{
+    width: 100%;
+}
+.mobile-Nav ul li a{
+    width: 100%;
+}
+.mobile-Nav ul li a.active{
+    background: #04BDFE;
+    color: #000;
+}
+.mobile-Nav ul li a:hover{
+    background: #04BDFE;
+}
+.mobile-Nav ul li a:focus{
+    background: #04BDFE;
+}
